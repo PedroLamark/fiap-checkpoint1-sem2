@@ -1,4 +1,4 @@
-# E-commerce
+# fiap-checkpoint1-sem2
 
 ## Database
 
@@ -46,7 +46,7 @@ mvn spring-boot:run -Dspring-boot.run.profiles=prd
 
 ## Docker
 
-* build 
+* build
 
 ```sh
 docker build -t ecommerce .
@@ -64,6 +64,3 @@ docker run -d \
     -e DATABASE_PWD=root_pwd \
     ecommerce
 ```
-
-
-# ecommerce
